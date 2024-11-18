@@ -1,0 +1,43 @@
+/* `author` - DEV-Penguin-DEV[https://github.com/DEV-Penguin-DEV] */
+
+button, input, textarea {
+  border: none;
+  background: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
